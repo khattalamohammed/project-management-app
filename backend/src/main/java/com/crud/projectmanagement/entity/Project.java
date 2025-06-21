@@ -2,15 +2,14 @@ package com.crud.projectmanagement.entity;
 
 import com.crud.projectmanagement.entity.enums.ProjectStatus;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.io.Serial;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "projects")
+@Table(name = "project")
+@Getter @Setter
 @EqualsAndHashCode(callSuper = true)
 @NoArgsConstructor
 @AllArgsConstructor

@@ -1,5 +1,5 @@
 package com.crud.projectmanagement.entity.enums;
 
 public enum ProjectStatus {
-    PLANNING, ACTIVE, ON_HOLD, COMPLETED, CANCELLED
+    PLANNED, IN_PROGRESS, ON_HOLD, COMPLETED, CANCELLED
 }
