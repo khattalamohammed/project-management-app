@@ -1,0 +1,200 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.17.xsd">
+
+    <changeSet id="2" author="x">
+        <insert tableName="project">
+            <column name="name" value="Website Redesign"/>
+            <column name="description" value="Revamp the company website UI."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-07-01"/>
+            <column name="end_date" valueDate="2025-08-01"/>
+            <column name="created_at" valueDate="2025-06-21T09:00:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:00:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Mobile App Development"/>
+            <column name="description" value="Develop a mobile app for customer engagement."/>
+            <column name="status" value="IN_PROGRESS"/>
+            <column name="start_date" valueDate="2025-06-01"/>
+            <column name="end_date" valueDate="2025-09-15"/>
+            <column name="created_at" valueDate="2025-06-21T09:05:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:05:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="CRM Integration"/>
+            <column name="description" value="Connect CRM with internal tools."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-08-15"/>
+            <column name="end_date" valueDate="2025-09-15"/>
+            <column name="created_at" valueDate="2025-06-21T09:10:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:10:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Cloud Migration"/>
+            <column name="description" value="Migrate infrastructure to AWS."/>
+            <column name="status" value="IN_PROGRESS"/>
+            <column name="start_date" valueDate="2025-07-01"/>
+            <column name="end_date" valueDate="2025-10-01"/>
+            <column name="created_at" valueDate="2025-06-21T09:15:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:15:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="QA Automation"/>
+            <column name="description" value="Automate regression testing suite."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-08-01"/>
+            <column name="end_date" valueDate="2025-09-15"/>
+            <column name="created_at" valueDate="2025-06-21T09:20:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:20:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Data Warehouse Setup"/>
+            <column name="description" value="Build out a data warehouse for BI."/>
+            <column name="status" value="IN_PROGRESS"/>
+            <column name="start_date" valueDate="2025-07-10"/>
+            <column name="end_date" valueDate="2025-10-10"/>
+            <column name="created_at" valueDate="2025-06-21T09:25:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:25:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Security Audit"/>
+            <column name="description" value="Conduct company-wide security audit."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-09-01"/>
+            <column name="end_date" valueDate="2025-10-15"/>
+            <column name="created_at" valueDate="2025-06-21T09:30:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:30:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Internal Training Platform"/>
+            <column name="description" value="Create a platform for internal staff training."/>
+            <column name="status" value="COMPLETED"/>
+            <column name="start_date" valueDate="2025-03-01"/>
+            <column name="end_date" valueDate="2025-05-01"/>
+            <column name="created_at" valueDate="2025-06-21T09:35:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:35:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Microservices Refactor"/>
+            <column name="description" value="Refactor monolith to microservices."/>
+            <column name="status" value="IN_PROGRESS"/>
+            <column name="start_date" valueDate="2025-06-15"/>
+            <column name="end_date" valueDate="2025-09-30"/>
+            <column name="created_at" valueDate="2025-06-21T09:40:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:40:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Email Notification System"/>
+            <column name="description" value="Add transactional emails to the platform."/>
+            <column name="status" value="CANCELLED"/>
+            <column name="start_date" valueDate="2025-04-01"/>
+            <column name="end_date" valueDate="2025-04-15"/>
+            <column name="created_at" valueDate="2025-06-21T09:45:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:45:00"/>
+        </insert>
+
+        <!-- 10 more records -->
+        <insert tableName="project">
+            <column name="name" value="Customer Portal Upgrade"/>
+            <column name="description" value="Redesign customer account management portal."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-09-01"/>
+            <column name="end_date" valueDate="2025-11-01"/>
+            <column name="created_at" valueDate="2025-06-21T09:50:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:50:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Analytics Dashboard"/>
+            <column name="description" value="Build real-time analytics dashboards."/>
+            <column name="status" value="IN_PROGRESS"/>
+            <column name="start_date" valueDate="2025-07-15"/>
+            <column name="end_date" valueDate="2025-09-15"/>
+            <column name="created_at" valueDate="2025-06-21T09:55:00"/>
+            <column name="updated_at" valueDate="2025-06-21T09:55:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="API Gateway Migration"/>
+            <column name="description" value="Replace old gateway with modern solution."/>
+            <column name="status" value="IN_PROGRESS"/>
+            <column name="start_date" valueDate="2025-06-15"/>
+            <column name="end_date" valueDate="2025-07-30"/>
+            <column name="created_at" valueDate="2025-06-21T10:00:00"/>
+            <column name="updated_at" valueDate="2025-06-21T10:00:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Service Desk Implementation"/>
+            <column name="description" value="Implement service desk for internal support."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-08-01"/>
+            <column name="end_date" valueDate="2025-09-01"/>
+            <column name="created_at" valueDate="2025-06-21T10:05:00"/>
+            <column name="updated_at" valueDate="2025-06-21T10:05:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Third-party Payment Integration"/>
+            <column name="description" value="Integrate with Stripe and PayPal."/>
+            <column name="status" value="COMPLETED"/>
+            <column name="start_date" valueDate="2025-01-15"/>
+            <column name="end_date" valueDate="2025-03-15"/>
+            <column name="created_at" valueDate="2025-06-21T10:10:00"/>
+            <column name="updated_at" valueDate="2025-06-21T10:10:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Backup and Disaster Recovery"/>
+            <column name="description" value="Implement BCDR plan and cloud backups."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-10-01"/>
+            <column name="end_date" valueDate="2025-12-01"/>
+            <column name="created_at" valueDate="2025-06-21T10:15:00"/>
+            <column name="updated_at" valueDate="2025-06-21T10:15:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Event Management System"/>
+            <column name="description" value="Tool to manage corporate events and signups."/>
+            <column name="status" value="IN_PROGRESS"/>
+            <column name="start_date" valueDate="2025-06-20"/>
+            <column name="end_date" valueDate="2025-08-01"/>
+            <column name="created_at" valueDate="2025-06-21T10:20:00"/>
+            <column name="updated_at" valueDate="2025-06-21T10:20:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="Partner API"/>
+            <column name="description" value="Expose a public API for partner companies."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-09-01"/>
+            <column name="end_date" valueDate="2025-10-15"/>
+            <column name="created_at" valueDate="2025-06-21T10:25:00"/>
+            <column name="updated_at" valueDate="2025-06-21T10:25:00"/>
+        </insert>
+
+        <insert tableName="project">
+            <column name="name" value="SaaS Billing Module"/>
+            <column name="description" value="Subscription billing for our SaaS product."/>
+            <column name="status" value="PLANNED"/>
+            <column name="start_date" valueDate="2025-10-01"/>
+            <column name="end_date" valueDate="2025-12-15"/>
+            <column name="created_at" valueDate="2025-06-21T10:30:00"/>
+            <column name="updated_at" valueDate="2025-06-21T10:30:00"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
